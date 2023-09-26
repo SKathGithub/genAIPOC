@@ -1,0 +1,2 @@
+# genAIPOC
+To do genAIPOC
