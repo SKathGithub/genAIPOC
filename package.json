@@ -1,0 +1,34 @@
+{
+  "name": "genAIPOC-1",
+  "version": "1.0.0",
+  "description": "To do genAIPOC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKathGithub/genAIPOC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKathGithub/genAIPOC/issues"
+  },
+  "homepage": "https://github.com/SKathGithub/genAIPOC#readme",
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cucumber-expressions": "^8.3.0",
+    "gherkin": "^9.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.3.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/siteRegistration"
+  }
+}
